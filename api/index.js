@@ -12,12 +12,7 @@ function errorHandler(err, req, res, next) {
 }
 
 // Bindung der Profile-Routen
-const usersRoutes = require('./routes/usersRoutes');
+const usersRoutes = require('../routes/usersRoutes');
 app.use('/users', usersRoutes);
 app.use(errorHandler);
 
-try {
-  app.listen(port, () => console.log(`Server running on http://localhost:${port}`));
-} catch (error) {
-  console.error('Error occurred during database synchronization:', error);
-}
