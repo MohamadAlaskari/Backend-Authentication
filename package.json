@@ -1,0 +1,22 @@
+{
+  "name": "backend-authentication",
+  "version": "1.0.0",
+  "description": "Umfassendes Authentifizierungs-Backend für Bildungsplattformen, implementiert mit Express.js und Node.js. Dieser Service ermöglicht eine robuste Benutzerverwaltung mit Funktionen wie Nutzerregistrierung, Login, Profilaktualisierung und Löschung von Nutzerkonten. Entwickelt, um sichere und skalierbare Authentifizierungsmechanismen für Online-Bildungsanwendungen zu unterstützen, bietet es Entwicklern eine solide Grundlage für die Erstellung benutzerzentrierter Anwendungen im Bildungsbereich.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f dev.env nodemon index.js",
+    "mysql": "nodemon test.js"
+  },
+  "author": "Mohamad Alaskari",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "sequelize": "^6.36.0"
+  }
+}
