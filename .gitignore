@@ -1,0 +1,32 @@
+# Abhängigkeitsverzeichnisse
+node_modules/
+
+# Umgebungsvariablen
+.env
+.env.local
+.env.production
+
+# Build-Ausgabe
+dist/
+build/
+
+# MacOS-Systemdateien
+.DS_Store
+
+# Windows-Systemdateien
+Thumbs.db
+ehthumbs.db
+
+# Linux-Systemdateien
+.directory
+
+# IDE/Editor-spezifisch
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log-Dateien
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
