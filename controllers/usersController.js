@@ -73,6 +73,7 @@ async function deleteUser(req, res) {
   // Implementiere die Profilöschungslogik hier
 }
 
+
 module.exports = {
   getAllUsers,
   signup,
